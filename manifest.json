@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "URL Shortener",
+    "version": "1.0",
+    "description": "Shortens the current tab's URL using a custom backend and copies it to clipboard.",
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "clipboardWrite",
+      "https://url-shortener-backend-jxxl.onrender.com/"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html"
+    }
+  }
